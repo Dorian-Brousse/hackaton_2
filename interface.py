@@ -15,13 +15,6 @@ from flet import (
     TextField,
 )
 
-style=ft.ButtonStyle(
-                shape={
-                    ft.MaterialState.HOVERED: ft.RoundedRectangleBorder(radius=20),
-                    ft.MaterialState.DEFAULT: ft.RoundedRectangleBorder(radius=2),
-                },
-            ),
-
 def init():
     global board 
     board = []
